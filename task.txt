@@ -1,0 +1,7 @@
+1. Select filter already
+2. add date some extra filters in date filter
+3. in data picker year change from input
+4. in *all* date filter i added static date of 2000-12-26
+5. If some link is not available that was not show link icon youtube wiki etc
+6. if image not have i add default image in view modal 
+7. Page not found page
