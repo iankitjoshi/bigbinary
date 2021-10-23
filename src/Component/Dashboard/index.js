@@ -52,7 +52,7 @@ function Dashboard(props) {
         startDate: startDate && moment(startDate).format('YYYY-MM-DD') || '',
         endDate: endDate && moment(endDate).format('YYYY-MM-DD') || ''
     }
-// { target: { name, value } }
+
     useEffect(() => {
         if (startDate || endDate) {
             dispatch(action.GetLaunches({ value : statusFilter, dateFilter, data }))
@@ -239,4 +239,3 @@ function Dashboard(props) {
 }
 
 export default Dashboard
-

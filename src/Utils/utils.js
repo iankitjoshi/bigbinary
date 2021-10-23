@@ -38,7 +38,7 @@ export const getTimeStamps = (type = "pastMonth", reqStartDate = 0, reqEndDate =
             endDate = moment(reqEndDate).valueOf()
             break;
         case 'all':
-            startDate = 977777770000
+            startDate = 1020623400000
             endDate = moment().valueOf()
             break;
 
